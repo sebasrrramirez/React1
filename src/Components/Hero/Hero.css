@@ -1,0 +1,79 @@
+.hero-image {
+    background-image: url(./back1.jpg);
+    min-height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .hero-image div {
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.55);
+    color: aliceblue;
+  }
+  
+  .hero-image h1 {
+    font-size: calc(2em + 2vw);
+    padding: 1em;
+    margin: 1em;
+  }
+  
+  .hero-image p {
+    font-size: calc(0.7em + 0.7vw); 
+    max-width: 600px;
+    color: #ffffff;
+  }
+
+  .ov-btn-grow-skew {
+    background: #fff; /* color de fondo */
+    color: #1f1235;; /* color de fuente */
+    border: 2px solid #ffffff;; /* tamaño y color de borde */
+    padding: 16px 20px;
+    margin: 40px;
+    border-radius: 10px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .ov-btn-grow-skew:hover {
+    color: #fff; /* color de fuente hover */
+  }
+  .ov-btn-grow-skew::after {
+    content: "";
+    background: #ff6e6c; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .ov-btn-grow-skew:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+  
+  /* animation Hero */
+  .hero-image {
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
