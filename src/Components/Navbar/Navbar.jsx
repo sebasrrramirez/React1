@@ -3,7 +3,7 @@ import React from 'react';
 //import mi archivo css
 import './Navbar.css';
 
-const NavBar = () => {
+const Navbar = () => {
   return (
     <header className="header">
       <img src="/src/Components/Navbar/logo.png" alt="Logo" className="logo"/>
@@ -24,4 +24,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;
