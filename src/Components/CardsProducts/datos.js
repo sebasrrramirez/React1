@@ -5,7 +5,7 @@ const dataArray = [
         description: "Aro: 98. Peso: 305gr. Patrón: 16x19. Grip: 4 3/8",
         price: 220,
         category: "raquetas",
-        cardImg: "/src/Components/CardsProducts/ImgProd/RaquetababolatPureDrivee.png",
+        cardImg: "https://res.cloudinary.com/dh2dnn41z/image/upload/v1704239507/RaquetababolatPureDrivee_zfirlj.png",
       },
       {
         id: 2,
@@ -13,7 +13,7 @@ const dataArray = [
         description: "Aro: 98. Peso: 315gr. Patrón: 16x19. Grip: 4 3/8",
         price: 301,
         category: "raquetas",
-        cardImg: "/src/Components/CardsProducts/ImgProd/RaquetababolatPureStrikee.png",
+        cardImg: "https://res.cloudinary.com/dh2dnn41z/image/upload/v1704239508/RaquetababolatPureStrikee_kit0sa.png",
       },
       {
         id: 3,
@@ -21,7 +21,7 @@ const dataArray = [
         description: "Aro: 100. Peso: 300gr. Patrón: 16x19. Grip: 4 3/8",
         price: 280,
         category: "raquetas",
-        cardImg: "/src/Components/CardsProducts/ImgProd/RaquetaHeadGraphene.png",
+        cardImg: "https://res.cloudinary.com/dh2dnn41z/image/upload/v1704239508/RaquetaHeadGraphene_e8s6hu.png",
       },
   ];
   
