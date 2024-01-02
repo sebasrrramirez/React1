@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 //import mi archivo css
-import './Navbar.css';
+import "./Navbar.css";
 
 const Navbar = () => {
   return (

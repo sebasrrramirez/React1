@@ -1,6 +1,6 @@
-import React from 'react'
-import './CardProducts.css';
-import dataArray from './datos.js'; 
+import React from "react";
+import "./CardProducts.css";
+import dataArray from "./datos.js"; 
 
 const CardProducts= () => {
     const Card = ({ datos }) => {
